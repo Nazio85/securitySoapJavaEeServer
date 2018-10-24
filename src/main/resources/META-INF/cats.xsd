@@ -1,0 +1,13 @@
+<schema
+	version="0.1.1"
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified"
+
+	targetNamespace="http://skpari.ru/core/domain/commission/"
+>
+	<complexType name="CatType">
+		<sequence>
+			<element name="name" type="string"/>
+		</sequence>
+	</complexType>
+</schema>
